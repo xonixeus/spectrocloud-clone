@@ -14,6 +14,6 @@ Speaking of commands, kubectl is the CLI that is used to interact with k8s. The 
 
 # References
 
-- https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-strong-getting-started-strong-
+- [Getting Started with the `kubectl` command](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-strong-getting-started-strong-)
 
 - [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/)
