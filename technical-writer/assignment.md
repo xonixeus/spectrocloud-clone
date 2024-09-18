@@ -18,10 +18,10 @@ _These are different ways of pronouncing the name of the_ `kubectl` _tool._
 
 Let's explore the `kubectl` tool, specifically, the following operations:
 
-* `get`
-* `logs`
-* `exec`
-* `debug`
+* [`get`](#kubectl-get)
+* [`logs`](#kubectl-logs)
+* [`exec`](#kubectl-exec)
+* [`debug`](#kubectl-debug)
 
 ---
 
