@@ -1,4 +1,4 @@
-# Administor Kubernetes with the `kubectl` Tool
+# Administer Kubernetes with the `kubectl` Tool
 
 ![Kubernetes](https://raw.githubusercontent.com/xonixeus/spectrocloud-clone/lenardson-branch/static/kubernetes.png)
 
@@ -99,7 +99,7 @@ Mon Sep 18 10:00:00 UTC 2023
 #### `kubectl debug`
 Use the `debug` operation for troubleshooting issues in containers by creating an ephemeral debug container. This advanced operation builds on everything discussed so far—understanding the state of pods, reading logs, and interacting with containers using `exec`.
 
-Create and attache a temporary debug container using the **busybox** image, with the following command:
+Create and attachs a temporary debug container using the **busybox** image, with the following command:
 ```shell
 kubectl debug loadbal-pod --image=busybox
 ```
@@ -117,7 +117,7 @@ root@loadbal-pod:/#
 <br>
 
 ### Conclusion
-This article covers some of the common `kubectl` operations you may use when managing a Kubernetes cluster. However, there are many more operations that are just as important as the ones covered here. You can learn more about `kubectl` and Kubernetes by visint the links in the following section.<br />
+This article covers some of the common `kubectl` operations you may use when managing a Kubernetes cluster. However, there are many more operations that are just as important as the ones covered here. You can learn more about `kubectl` and Kubernetes by visiting the links in the following section.<br />
 
 ### Reference(s)
 For details about each `kubectl` command, including examples and all options, consult the [kubectl](https://kubernetes.io/docs/reference/kubectl/generated/) page from Kubernetes docs.
