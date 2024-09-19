@@ -112,7 +112,7 @@ root@loadbal-pod:/#
 <br>
 
 ### Conclusion
-In this article, we learned...
+This article covers some of the common `kubectl` operations you may use when managing a Kubernetes cluster. However, there are many more operations that are just as important as the ones covered here. You can learn more about `kubectl` and Kubernetes by visint the links in the following section.<br />
 
 ### References
 For details about each `kubectl` command, including examples and all options, see the [kubectl]() reference documentation.
