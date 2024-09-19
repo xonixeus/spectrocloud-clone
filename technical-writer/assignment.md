@@ -10,7 +10,7 @@ Kubernetes, often abbreviated as K8s, is an open-source platform designed to aut
 > - kube-cuddle
 > - kube-ectl
 >
->_These are different ways of pronouncing the name of the_ `kubectl` _tool._
+>_These are different ways of pronouncing the_ `kubectl` _tool._
 
 ## Prerequisite(s)
 * You need a Kubernetes cluster to use the `kubectl` tool. To learn how to create a cluster from scratch using minikube, consult the [minikube start](https://minikube.sigs.k8s.io/docs/start/) tutorial.
@@ -99,7 +99,7 @@ Mon Sep 18 10:00:00 UTC 2023
 #### `kubectl debug`
 Use the `debug` operation for troubleshooting issues in containers by creating an ephemeral debug container. This advanced operation builds on everything discussed so far—understanding the state of pods, reading logs, and interacting with containers using `exec`.
 
-Create and attachs a temporary debug container using the **busybox** image, with the following command:
+Create and attach a temporary debug container using the **busybox** image, with the following command:
 ```shell
 kubectl debug loadbal-pod --image=busybox
 ```
