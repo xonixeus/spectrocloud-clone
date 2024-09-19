@@ -1,6 +1,6 @@
 # Using the `kubectl` Tool to Interact with Kubernetes
 
-<img alt="" Title="" src="">
+![Kubernetes](https://raw.githubusercontent.com/xonixeus/spectrocloud-clone/lenardson-branch/static/kubernetes.png)
 
 ## Introduction
 Kubernetes, often abbreviated as K8s, is an open-source platform designed to automate the deployment, scaling, and management of containerized applications. It is incredibly powerful, but if you are just getting started, it may seem overly complicated. The `kubectl` command-line tool provides a simple way for developers and system administrators to manage and troubleshoot containers.<br>
