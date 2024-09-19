@@ -70,7 +70,25 @@ kubectl logs loadbal-pod
 <br>
 
 #### `kubectl exec`
-[PLACEHOLDER]
+The `exec` operation allows a user to issue a command inside a container, helping them interact with running containers for troubleshooting, configuration, or diagnostics.
+
+> &#9432; **_NOTE:_** _The `exec` operation requires a command, e.g., `date`._
+> 
+> _For more information, consult the [kubectl exec](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_exec/) page from Kubernetes docs._
+
+Retrieve the date from a pod, using the first container by default, with the following command:
+```shell
+kubectl exec loadbal-pod -- date
+```
+> &#9432; **_NOTE:_** _Replace <span style="color:red">**loadbal-pod**</span> with the name of a pod in your environment._
+---
+&#128421; <span style="color:#72A8F5">***OUTPUT***</span>
+```text
+Mon Sep 18 10:00:00 UTC 2023
+```
+---
+
+<br>
 
 #### `kubectl debug`
 [PLACEHOLDER]
