@@ -53,7 +53,7 @@ kubectl get pods
 <br>
 
 #### `kubectl logs`
-The `log` operation allows users to view logs from pods, helping them to understand what is happening inside containers. This tool plays an essential role in debugging, allowing users to check the output of a running application and diagnose issues.
+The `log` operation allows you to view logs from pods, helping you to understand what is happening inside containers. This tool plays an essential role in debugging, allowing you to check the output of a running application and diagnose issues.
 
 View the `logs` of a pod with the following command:
 ```shell
@@ -76,7 +76,7 @@ kubectl logs loadbal-pod
 <br>
 
 #### `kubectl exec`
-The `exec` operation allows a user to issue a command inside a container, helping them interact with running containers for troubleshooting, configuration, or diagnostics.
+The `exec` operation allows you to issue a command inside a container, helping you interact with running containers for troubleshooting, configuration, or diagnostics.
 
 > &#9432; **_NOTE:_** _The `exec` operation requires a command, e.g., `date`._
 > 
@@ -117,7 +117,7 @@ root@loadbal-pod:/#
 <br>
 
 ### Conclusion
-This article covers some of the common `kubectl` operations you may use when managing a Kubernetes cluster. However, there are many more operations that are just as important as the ones covered here. You can learn more about `kubectl` and Kubernetes by visiting the links in the following section.<br />
+This article covers some common `kubectl` operations you may use when managing a Kubernetes cluster. However, there are many more operations that are just as important as the ones discussed. You can learn more about `kubectl` and Kubernetes by visiting the links in the following section.<br />
 
 ### Reference(s)
 For details about each `kubectl` command, including examples and all options, consult the [kubectl](https://kubernetes.io/docs/reference/kubectl/generated/) page from Kubernetes docs.
