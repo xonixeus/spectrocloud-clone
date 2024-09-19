@@ -3,7 +3,7 @@
 ![Kubernetes](https://raw.githubusercontent.com/xonixeus/spectrocloud-clone/lenardson-branch/static/kubernetes.png)
 
 ## Introduction
-Kubernetes, often abbreviated as K8s, is an open-source platform designed to automate the deployment, scaling, and management of containerized applications. It is incredibly powerful, but if you are just getting started, it may seem overly complicated. The `kubectl` command-line tool provides a simple way for developers and system administrators to manage and troubleshoot containers.<br>
+Kubernetes, often abbreviated as K8s, is an open-source platform designed to automate the deployment, scaling, and management of containerized applications. It is incredibly powerful, but if you are just getting started, it may seem overly complicated. The `kubectl` command-line tool provides a simple way for administrators to manage Kubernetes objects and clusters.
 
 > &#9432; **_NOTE:_** _You may have heard of the following tools:_
 > - kube-control
@@ -12,31 +12,32 @@ Kubernetes, often abbreviated as K8s, is an open-source platform designed to aut
 >
 >_These are different ways of pronouncing the name of the_ `kubectl` _tool._
 
-Let's explore the `kubectl` tool, specifically, the following operations:
+Now, let's explore the `kubectl` tool, specifically, the following operations:
 
 * [`get`](#kubectl-get)
 * [`logs`](#kubectl-logs)
 * [`exec`](#kubectl-exec)
 * [`debug`](#kubectl-debug)
 
+<br>
+
 ---
 
 #### `kubectl get`
 The `get` operation is fundamental because it allows users to query and view important information about a specific resource (e.g., Pods, Services, et cetera).
 
-Issue the followign command to list the `pods` resource type:
+List the `pods` resource type in the default **namespace**, issue the following command:
 ```shell
 kubectl get pods
 ```
 ---
 &#128421; <span style="color:#72A8F5">***OUTPUT***</span>
 
-| NAME         | READY | STATUS  | RESTARTS | AGE  |
-|--------------|-------|---------|----------|------|
-| loadbal-pod  | 1/1   | Running | 0        | 4d4h |
-| frontend-pod | 1/1   | Running | 0        | 4d   |
-| backend-pod  | 1/1   | Running | 0        | 4d   |
-
+>| NAME         | READY | STATUS  | RESTARTS | AGE  |
+>|--------------|-------|---------|----------|------|
+>| loadbal-pod  | 1/1   | Running | 0        | 4d4h |
+>| frontend-pod | 1/1   | Running | 0        | 4d   |
+>| backend-pod  | 1/1   | Running | 0        | 4d   |
 ---
 <br>
 
@@ -107,6 +108,7 @@ Creating debugging container with image busybox ...
 root@loadbal-pod:/#
 ```
 ---
+
 <br>
 
 ### Conclusion
