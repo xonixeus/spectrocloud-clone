@@ -28,7 +28,6 @@ Issue the followign command to list the `pods` resource type:
 ```shell
 kubectl get pods
 ```
-
 ---
 &#128421; <span style="color:#72A8F5">***OUTPUT***</span>
 
@@ -48,7 +47,27 @@ kubectl get pods
 <br>
 
 #### `kubectl logs`
-[PLACEHOLDER]
+The `log` operation allows users to view logs from pods, helping them to understand what is happening inside containers. This tool plays an essential role in debugging, allowing users to check the output of a running application and diagnose issues.
+
+View the `logs` of a pod with the following command:
+```shell
+kubectl logs loadbal-pod
+```
+> &#9432; **_NOTE:_** _Replace <span style="color:red">**loadbal-pod**</span> with the name of a pod in your environment._
+---
+&#128421; <span style="color:#72A8F5">***OUTPUT***</span>
+```text
+2023-09-18T10:00:00.123Z INFO Starting application version 1.0.0
+2023-09-18T10:00:01.456Z INFO Server is listening on port 443
+2023-09-18T10:00:05.789Z INFO Connected to database successfully
+2023-09-18T10:00:10.012Z INFO Received request: GET /api/v1/users
+2023-09-18T10:00:10.015Z INFO Responded with status 200 in 3ms
+2023-09-18T10:00:15.345Z ERROR Failed to process request: Invalid user ID
+2023-09-18T10:00:20.678Z WARN High memory usage detected
+```
+---
+
+<br>
 
 #### `kubectl exec`
 [PLACEHOLDER]
