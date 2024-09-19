@@ -13,7 +13,7 @@ Kubernetes, often abbreviated as K8s, is an open-source platform designed to aut
 >_These are different ways of pronouncing the name of the_ `kubectl` _tool._
 
 ## Prerequisite(s)
-* You need a Kubernetes cluster to use `kubectl`. To learn how to create a cluster from scratch using minikube, consult the [minikube start](https://minikube.sigs.k8s.io/docs/start/) tutorial.
+* You need a Kubernetes cluster to use the `kubectl` tool. To learn how to create a cluster from scratch using minikube, consult the [minikube start](https://minikube.sigs.k8s.io/docs/start/) tutorial.
 
 <br>
 
