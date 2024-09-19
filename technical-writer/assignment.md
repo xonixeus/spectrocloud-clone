@@ -31,7 +31,7 @@ Now, let's explore the `kubectl` tool, specifically, the following operations:
 #### `kubectl get`
 The `get` operation is fundamental because it allows users to query and view important information about a specific resource (e.g., Pods, Services, et cetera).
 
-List the `pods` resource type in the default **namespace**, issue the following command:
+List the `pods` resource type in the default **namespace** with the following command:
 ```shell
 kubectl get pods
 ```
@@ -97,7 +97,7 @@ Mon Sep 18 10:00:00 UTC 2023
 <br>
 
 #### `kubectl debug`
-Use the `debug` operation for troubleshooting issues in containers by creating an ephemeral debug container. This advanced operation builds on everything we have learned so far—understanding the state of pods, reading logs, and interacting with containers using exec.
+Use the `debug` operation for troubleshooting issues in containers by creating an ephemeral debug container. This advanced operation builds on everything discussed so far—understanding the state of pods, reading logs, and interacting with containers using `exec`.
 
 Create and attache a temporary debug container using the **busybox** image, with the following command:
 ```shell
