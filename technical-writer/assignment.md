@@ -91,9 +91,23 @@ Mon Sep 18 10:00:00 UTC 2023
 <br>
 
 #### `kubectl debug`
-[PLACEHOLDER]
+Use the `debug` operation for troubleshooting issues in containers by creating an ephemeral debug container. This advanced operation builds on everything we have learned so far—understanding the state of pods, reading logs, and interacting with containers using exec.
 
+Create and attache a temporary debug container using the **busybox** image, with the following command:
+```shell
+kubectl debug loadbal-pod --image=busybox
+```
+> &#9432; **_NOTE:_** _Replace <span style="color:red">**loadbal-pod**</span> with the name of a pod in your environment._
+> 
 ---
+&#128421; <span style="color:#72A8F5">***OUTPUT***</span>
+```text
+Creating debugging container with image busybox ...
+
+root@loadbal-pod:/#
+```
+---
+<br>
 
 ### Conclusion
 In this article, we learned...
