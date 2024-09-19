@@ -1,4 +1,4 @@
-# Using the `kubectl` Tool to Interact with Kubernetes
+# Administor Kubernetes with the `kubectl` Tool
 
 ![Kubernetes](https://raw.githubusercontent.com/xonixeus/spectrocloud-clone/lenardson-branch/static/kubernetes.png)
 
